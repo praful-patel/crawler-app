@@ -1,0 +1,14 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "D:\\projects\\jack\\exp-ts-kit\\src\\logs\\info\\.7037b9a5edb5ec0d73ff1e8242bc0b4bef222e23-audit.json",
+    "files": [
+        {
+            "date": 1617856992412,
+            "name": "D:\\projects\\jack\\exp-ts-kit\\src\\logs\\info\\2021-04-08.log",
+            "hash": "4374756758a5ae0c6bdd9b1c3780fc17"
+        }
+    ]
+}
