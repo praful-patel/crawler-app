@@ -46,8 +46,11 @@ class CrawlService {
 
       if (isEmpty(body)) throw new HttpException(204, 'Not able to get data.');
       const createData: Crawl = await this.crawlData.create({ ...body });
-      //get data of other pages.
-      this.createFooterData(footer);
+      // Crawling data of another pages
+      setTimeout(() => {
+        //get data of other pages.
+        this.createFooterData(footer);
+      }, 5000);
       return createData;
     } catch (err) {
       //need to handle error here.
